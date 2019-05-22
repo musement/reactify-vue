@@ -1,0 +1,26 @@
+{
+  "name": "reactify-vue",
+  "version": "0.1.0",
+  "description": "reactify vue components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musement/reactify-vue.git"
+  },
+  "keywords": [
+    "reactify",
+    "react",
+    "vue",
+    "component",
+    "components"
+  ],
+  "author": "lsimone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/musement/reactify-vue/issues"
+  },
+  "homepage": "https://github.com/musement/reactify-vue#readme"
+}
