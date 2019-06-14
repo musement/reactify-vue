@@ -2,6 +2,8 @@
 
 transforms a vue component in a react one
 
+TODO: to be updated after latest modifications
+
 ## usage example
 
 * export a vue component as a react builder:
