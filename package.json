@@ -2,9 +2,15 @@
   "name": "reactify-vue",
   "version": "0.1.1",
   "description": "reactify vue components",
-  "main": "index.js",
+  "main": "index.es5.js",
   "scripts": {
+    "build": "babel index.js --out-file index.es5.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build"
+    }
   },
   "repository": {
     "type": "git",
@@ -22,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/musement/reactify-vue/issues"
   },
-  "homepage": "https://github.com/musement/reactify-vue#readme"
+  "homepage": "https://github.com/musement/reactify-vue#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "husky": "^2.4.1"
+  }
 }
